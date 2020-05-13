@@ -191,10 +191,20 @@ bindsym $mod+i gaps inner current minus 5
 bindsym $mod+o gaps outer current plus 5
 bindsym $mod+p gaps outer current minus 5
 
+# Run xrandr to fix dpi
+exec --no-startup-id xrandr --dpi 192
+
 # Launch picom
 exec_always --no-startup-id picom
 
 # Set Wallpaper
 exec_always --no-startup-id feh --bg-fill /home/jacob/PersonalFiles/wallpapers/music_related_wallpapers/1586777051800.jpg
 
+# Open xfce4-power-manager
+exec --no-startup-id xfce4-power-manager
 
+# Launch Firefox
+bindsym $mod+b exec --no-startup-id firefox
+
+#Launch Ranger
+bindsym $mod+n exec --no-startup-id ranger
