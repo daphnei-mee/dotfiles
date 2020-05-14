@@ -209,7 +209,8 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 exec_always --no-startup-id picom
 
 # Set Wallpaper
-exec_always --no-startup-id setbg
+#exec --no-startup-id setbg
+exec_always --no-startup-id feh --bg-fill ~/PersonalFiles/wallpapers/music_related_wallpapers/boris_flood_live_performance.jpg
 
 # Launch Web Browser
 bindsym $mod+b exec --no-startup-id brave
