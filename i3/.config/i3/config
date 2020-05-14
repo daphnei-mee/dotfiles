@@ -202,6 +202,9 @@ bindsym $mod+p gaps outer current minus 5
 # Run xrandr to fix dpi
 exec_always --no-startup-id xrandr --dpi 192
 
+# Run Unclutter
+exec --no-startup-id unclutter
+
 # Launch polybar
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
