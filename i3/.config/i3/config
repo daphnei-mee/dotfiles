@@ -204,7 +204,7 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 exec_always --no-startup-id picom
 
 # Set Wallpaper
-exec_always --no-startup-id feh --bg-fill /home/jacob/PersonalFiles/wallpapers/music_related_wallpapers/1586777051800.jpg
+exec_always --no-startup-id feh --bg-fill /home/jacob/PersonalFiles/wallpapers/music_related_wallpapers/boris_flood_live_performance.jpg
 
 # Open xfce4-power-manager
 exec --no-startup-id xfce4-power-manager
