@@ -215,5 +215,3 @@ bindsym $mod+b exec --no-startup-id brave
 #Launch Ranger
 bindsym $mod+n exec --no-startup-id ranger
 
-
-# This is a message to see if stow+git works!!!
