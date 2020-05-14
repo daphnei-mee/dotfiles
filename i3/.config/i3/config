@@ -206,7 +206,7 @@ exec_always --no-startup-id xrandr --dpi 192
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 # Launch picom
-exec_always --no-startup-id picom
+exec_always --no-startup-id picom 
 
 # Set Wallpaper
 #exec --no-startup-id setbg
