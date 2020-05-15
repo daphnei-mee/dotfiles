@@ -209,9 +209,9 @@ exec --no-startup-id unclutter
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 # Launch picom
-exec_always --no-startup-id picom 
+exec_always --no-startup-id xcompmgr
 # Kill picom
-bindsym $mod+shift+p exec --no-startup-id killall picom
+bindsym $mod+shift+p exec --no-startup-id killall xcompmgr
 
 # Set Wallpaper
 exec --no-startup-id setbg
