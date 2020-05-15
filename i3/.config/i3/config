@@ -225,4 +225,4 @@ bindsym $mod+n exec --no-startup-id termite -e ranger
 
 # Configure TV command
 bindsym $mod+shift+t exec --no-startup-id xrandr --output HDMI-1 --auto --primary --right-of eDP-1
-
+bindsym $mod+shift+y exec --no-startup-id xrandr --output eDP-1 --auto --primary
