@@ -221,11 +221,11 @@ bindsym $mod+b exec --no-startup-id firefox
 bindsym $mod+shift+b exec --no-startup-id torbrowser-launcher
 
 # Launch Ranger
-bindsym $mod+n exec --no-startup-id termite -e ranger
+bindsym $mod+n exec --no-startup-id alacritty -e ranger
 
 # Configure TV command
 bindsym $mod+shift+t exec --no-startup-id xrandr --output HDMI-1 --auto --primary --right-of eDP-1
-bindsym $mod+shift+y exec --no-startup-id xrandr --output eDP-1 --auto --primary
+bindsym $mod+shift+y exec --no-startup-id xrandr --output eDP-1 --auto --primary && xrandr --output HDMI-1 off
 
 # Take screenshot with scrot
 bindsym --release Print exec --no-startup-id scrot 
