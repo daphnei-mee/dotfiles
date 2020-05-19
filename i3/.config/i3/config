@@ -229,3 +229,5 @@ bindsym $mod+shift+y exec --no-startup-id xrandr --output eDP-1 --auto --primary
 
 # Take screenshot with scrot
 bindsym --release Print exec --no-startup-id scrot 
+
+#obligatory comment 
