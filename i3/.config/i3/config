@@ -205,6 +205,9 @@ exec_always --no-startup-id xrandr --dpi 192
 # Run Unclutter
 exec --no-startup-id unclutter
 
+# Run wacom tablet setup
+exec --no-startup-id xsetwacom --set "Wacom Intuos S 2 Pen stylus" MapToOutput 14000x14000+0+0
+
 # Launch polybar
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
