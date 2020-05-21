@@ -45,7 +45,7 @@ bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 10
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec --no-startup-id alacritty
+bindsym $mod+Return exec --no-startup-id termite
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -224,7 +224,7 @@ bindsym $mod+b exec --no-startup-id firefox
 bindsym $mod+shift+b exec --no-startup-id torbrowser-launcher
 
 # Launch Ranger
-bindsym $mod+n exec --no-startup-id alacritty -e ranger
+bindsym $mod+n exec --no-startup-id termite -e ranger
 
 # Configure TV command
 bindsym $mod+shift+t exec --no-startup-id xrandr --output HDMI-1 --auto --primary --right-of eDP-1
