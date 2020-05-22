@@ -16,9 +16,11 @@
 ;
 ;==========================================================
 
+### NORMAL COLORS
 [colors]
 ;background = ${xrdb:color0:#222}
-background = #222
+#background = #222
+background = #1E1E1E
 background-alt = #444
 ;foreground = ${xrdb:color7:#222}
 foreground = #dfdfdf
@@ -26,6 +28,20 @@ foreground-alt = #555
 primary = #ffb52a
 secondary = #e60053
 alert = #bd2c40
+
+### SOLARIZED COLORS
+#[colors]
+#;background = ${xrdb:color0:#222}
+#background = #002b36
+#background-alt = #073642
+#;foreground = ${xrdb:color7:#222}
+#foreground = #93a1a1
+#foreground-alt = #eee8d5
+#primary = #ffb52a
+#secondary = #e60053
+#alert = #bd2c40
+#red = dc322f
+
 
 [bar/mybar]
 ;monitor = ${env:MONITOR:HDMI-1}

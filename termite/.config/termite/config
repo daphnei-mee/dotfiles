@@ -6,7 +6,7 @@
 #cell_width_scale = 1.0
 #clickable_url = true
 #dynamic_title = true
-font = Monospace 10
+font = Source Code Pro 10
 #fullscreen = true
 #icon_name = terminal
 #mouse_autohide = false
@@ -41,38 +41,45 @@ scrollback_lines = 10000
 #scrollbar = off
 
 [colors]
-# If both of these are unset, cursor falls back to the foreground color,
-# and cursor_foreground falls back to the background color.
-#cursor = #dcdccc
-#cursor_foreground = #dcdccc
+# special
+foreground      = #a8a19f
+foreground_bold = #a8a19f
+cursor          = #a8a19f
+#background      = #1b1918
+background = rgba(0, 0, 0, 0.8)
 
-#foreground = #dcdccc
-#foreground_bold = #ffffff
-#background = #3f3f3f
+# black
+color0  = #1b1918
+color8  = #766e6b
 
-# 20% background transparency (requires a compositor)
-background = rgba(63, 63, 63, 0.8)
+# red
+color1  = #f22c40
+color9  = #f22c40
 
-# If unset, will reverse foreground and background
-highlight = #2f2f2f
+# green
+color2  = #5ab738
+color10 = #5ab738
 
-# Colors from color0 to color254 can be set
-color0 = #3f3f3f
-color1 = #705050
-color2 = #60b48a
-color3 = #dfaf8f
-color4 = #506070
-color5 = #dc8cc3
-color6 = #8cd0d3
-color7 = #dcdccc
-color8 = #709080
-color9 = #dca3a3
-color10 = #c3bf9f
-color11 = #f0dfaf
-color12 = #94bff3
-color13 = #ec93d3
-color14 = #93e0e3
-color15 = #ffffff
+# yellow
+color3  = #d5911a
+color11 = #d5911a
+
+# blue
+color4  = #407ee7
+color12 = #407ee7
+
+# magenta
+color5  = #6666ea
+color13 = #6666ea
+
+# cyan
+color6  = #00ad9c
+color14 = #00ad9c
+
+# white
+color7  = #a8a19f
+color15 = #f1efee
+
 
 [hints]
 #font = Monospace 12
