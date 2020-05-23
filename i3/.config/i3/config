@@ -220,7 +220,7 @@ bindsym $mod+shift+p exec --no-startup-id killall picom
 exec --no-startup-id setbg
 
 # Launch Web Browser
-bindsym $mod+b exec --no-startup-id vivaldi-stable
+bindsym $mod+b exec --no-startup-id firefox
 bindsym $mod+shift+b exec --no-startup-id torbrowser-launcher
 
 # Launch Ranger
