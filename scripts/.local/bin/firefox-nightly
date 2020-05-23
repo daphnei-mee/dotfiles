@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Launch Firefox Nightly from home directory
+/home/jacob/firefox-nightly/firefox &
