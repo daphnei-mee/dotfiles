@@ -227,6 +227,9 @@ bindsym $mod+shift+b exec --no-startup-id torbrowser-launcher
 bindsym $mod+n exec --no-startup-id termite -e ranger
 bindsym $mod+shift+n exec --no-startup-id pcmanfm
 
+# Launch Music Player
+bindsym $mod+m exec --no-startup-id termite -e ncmpcpp
+
 # Configure TV command
 bindsym $mod+shift+t exec --no-startup-id xrandr --output HDMI-1 --auto --primary --right-of eDP-1
 bindsym $mod+shift+y exec --no-startup-id xrandr --output eDP-1 --auto --primary && xrandr --output HDMI-1 off
