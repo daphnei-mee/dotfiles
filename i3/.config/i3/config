@@ -229,6 +229,7 @@ bindsym $mod+shift+n exec --no-startup-id pcmanfm
 
 # Launch Music Player
 bindsym $mod+m exec --no-startup-id termite -e ncmpcpp
+bindsym $mod+shift+m exec --no-startup-id spotify
 
 # Configure TV command
 bindsym $mod+shift+t exec --no-startup-id xrandr --output HDMI-1 --auto --primary --right-of eDP-1
