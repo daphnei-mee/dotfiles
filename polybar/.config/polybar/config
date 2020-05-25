@@ -68,9 +68,7 @@ padding-right = 2
 module-margin-left = 1
 module-margin-right = 1
 
-font-0 = fixed:pixelsize=8;1
-font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
-font-2 = siji:pixelsize=10;1
+font-0 = fixed:pixelsize=9;1
 
 modules-left = bspwm i3
 modules-center = mpd
@@ -293,7 +291,7 @@ label = %date% %time%
 
 type = custom/script
 exec = weather
-interval = 5000
+interval = 3600
 format-underline = #50FF00
 
 [module/pulseaudio]
