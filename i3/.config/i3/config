@@ -86,7 +86,8 @@ bindsym $mod+Shift+semicolon move right
 # alternatively, you can use the cursor keys:
 bindsym $mod+Shift+Left move left
 bindsym $mod+Shift+Down move down
-bindsym $mod+Shift+Up move up bindsym $mod+Shift+Right move right
+bindsym $mod+Shift+Up move up 
+bindsym $mod+Shift+Right move right
 
 # split in horizontal orientation
 #bindsym $mod+h split h
@@ -227,7 +228,7 @@ bindsym $mod+shift+p exec --no-startup-id killall picom
 exec --no-startup-id setbg
 
 # Launch Web Browser
-bindsym $mod+b exec --no-startup-id firefox-nightly
+bindsym $mod+b exec --no-startup-id firefox
 bindsym $mod+shift+b exec --no-startup-id torbrowser-launcher
 
 # Launch File Manager
