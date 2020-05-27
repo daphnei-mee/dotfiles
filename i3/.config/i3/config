@@ -52,7 +52,7 @@ bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 10
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec --no-startup-id termite 
+bindsym $mod+Return exec --no-startup-id alacritty
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -232,11 +232,11 @@ bindsym $mod+b exec --no-startup-id firefox
 bindsym $mod+shift+b exec --no-startup-id torbrowser-launcher
 
 # Launch File Manager
-bindsym $mod+n exec --no-startup-id termite -e ranger
+bindsym $mod+n exec --no-startup-id alacritty -e ranger
 bindsym $mod+shift+n exec --no-startup-id pcmanfm
 
 # Launch Music Player
-bindsym $mod+m exec --no-startup-id termite -e ncmpcpp
+bindsym $mod+m exec --no-startup-id alacritty -e ncmpcpp
 bindsym $mod+shift+m exec --no-startup-id spotify
 
 # Configure TV command
