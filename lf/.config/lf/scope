@@ -1,6 +1,4 @@
-#!/bin/bash
-
-set -C -f -u
+et -C -f -u
 #IFS=$'\n'
 IFS="$(printf '%b_' '\n')"; IFS="${IFS%_}"
 

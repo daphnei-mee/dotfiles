@@ -46,7 +46,7 @@ foreground      = #a8a19f
 foreground_bold = #a8a19f
 cursor          = #a8a19f
 #background      = #1b1918
-background = rgba(0, 0, 0, 0.9)
+background = rgba(0, 0, 0, 0.8)
 
 # color scheme from terminal.sexy -> xcolors.net -> euphrasia. terminal color is just black
 
