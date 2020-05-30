@@ -233,7 +233,7 @@ bindsym $mod+shift+b exec --no-startup-id torbrowser-launcher
 
 # Launch File Manager
 bindsym $mod+n exec --no-startup-id termite -e ranger
-bindsym $mod+shift+n exec --no-startup-id pcmanfm
+bindsym $mod+shift+n exec --no-startup-id thunar
 
 # Launch Music Player
 bindsym $mod+m exec --no-startup-id termite -e ncmpcpp
