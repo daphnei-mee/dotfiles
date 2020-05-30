@@ -201,10 +201,10 @@ gaps inner 20
 gaps outer 20
 
 # Change gap sizes on the fly
-bindsym $mod+u gaps inner current plus 5
-bindsym $mod+i gaps inner current minus 5
-bindsym $mod+o gaps outer current plus 5
-bindsym $mod+p gaps outer current minus 5
+bindsym $mod+shift+u gaps inner current plus 5
+bindsym $mod+shift+i gaps inner current minus 5
+bindsym $mod+shift+o gaps outer current plus 5
+bindsym $mod+shift+p gaps outer current minus 5
 
 # Run xrandr to fix dpi
 exec_always --no-startup-id xrandr --dpi 192
@@ -222,7 +222,7 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 exec_always --no-startup-id picom -b
 
 # Kill compositor
-bindsym $mod+shift+p exec --no-startup-id killall picom
+bindsym $modxxx+p exec --no-startup-id killall picom
 
 # Set Wallpaper
 exec --no-startup-id setbg
@@ -249,3 +249,6 @@ bindsym --release Print exec --no-startup-id scrot
 # Launch Pavucontrol
 bindsym $mod+shift+a exec --no-startup-id pavucontrol 
 
+# Launch Gimp & Krita
+bindsym $mod+g exec --no-startup-id gimp
+bindsym $mod+shift+g exec --no-startup-id krita
