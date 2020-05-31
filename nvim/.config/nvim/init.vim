@@ -3,7 +3,6 @@ set mouse=a
 set incsearch
 set confirm
 set ignorecase
-#set clipboard+=unnamedplus
 function! ClipboardYank()
   call system('xclip -i -selection clipboard', @@)
 endfunction
