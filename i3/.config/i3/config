@@ -219,7 +219,7 @@ exec --no-startup-id xsetwacom --set "Wacom Intuos S 2 Pen stylus" MapToOutput 1
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 # Launch compositor
-exec_always --no-startup-id picom -b
+exec_always --no-startup-id picom -CGb --no-fading-openclose --backend glx
 
 # Kill compositor
 bindsym $mod+p exec --no-startup-id killall picom
