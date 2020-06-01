@@ -222,7 +222,7 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 exec_always --no-startup-id picom -b
 
 # Kill compositor
-bindsym $modxxx+p exec --no-startup-id killall picom
+bindsym $mod+p exec --no-startup-id killall picom
 
 # Set Wallpaper
 exec --no-startup-id setbg
