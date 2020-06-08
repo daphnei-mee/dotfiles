@@ -234,6 +234,7 @@ bindsym $mod+n exec --no-startup-id termite -e ranger
 bindsym $mod+shift+n exec --no-startup-id thunar
 
 # Launch Music Player
+exec --no-startup-id mpd
 bindsym $mod+m exec --no-startup-id termite -e ncmpcpp
 bindsym $mod+shift+m exec --no-startup-id spotify
 
