@@ -12,4 +12,4 @@ cd dotfiles
 
 rm LICENSE README.md
 
-stow * (or polybar, i3, picom, etc. individually)
+stow * (or "stow polybar", "stow i3", etc. depending on what you want to do)
