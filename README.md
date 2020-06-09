@@ -10,4 +10,6 @@ git clone https://gitlab.com/jacob-mee/dotfiles
 
 cd dotfiles
 
+rm LICENSE README.md
+
 stow * (or polybar, i3, picom, etc. individually)
