@@ -58,8 +58,7 @@ URxvt.saveline: 2048
 URxvt.scrollBar: false
 URxvt.scrollBar_right: false
 URxvt.urgentOnBell: true
-URxvt.depxh: 32
-urxvt*background: rgba:0000/0000/0200/c800
+URxvt.depxh: 24
 URxvt.iso14755: false
 
 !! URxvt Functions
