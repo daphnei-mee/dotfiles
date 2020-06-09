@@ -62,11 +62,13 @@ URxvt.background: [85]#000000
 URxvt.iso14755: false
 
 !! URxvt Functions
-URxvt.perl-ext-common: default,font-size,resize-font,clipboard,s
-URxvt.clipboard.autocopy: True
+URxvt.perl-ext-common: default,resize-font,clipboard,
+URxvt.clipboard.autocopy: true
 URxvt.keysym.C-j:       perl:font-size:increase
 URxvt.keysym.C-k:       perl:font-size:decrease
-URxvt.clipboard.autocopy: true
-URxvt.keysym.Shift-Control-C: perl:clipboard:copy
-URxvt.keysym.Shift-Control-V: perl:clipboard:paste
 
+URxvt.keysym.Shift-Control-V: eval:paste_clipboard
+URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
+
+URxvt.keysym.Control-Meta-c: builtin-string:
+URxvt.keysym.Control-Meta-v: builtin-string:
