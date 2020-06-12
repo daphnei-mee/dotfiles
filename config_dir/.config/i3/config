@@ -221,7 +221,7 @@ bindsym $mod+p exec --no-startup-id killall picom
 exec --no-startup-id setbg
 
 # Launch Web Browser
-bindsym $mod+b exec --no-startup-id firefox
+bindsym $mod+b exec --no-startup-id firefox-nightly
 bindsym $mod+shift+b exec --no-startup-id torbrowser-launcher
 
 # Launch File Manager
