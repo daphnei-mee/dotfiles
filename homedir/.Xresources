@@ -1,7 +1,10 @@
+# General
 Xft.dpi: 192
 
-!! Colorscheme
 
+# URXVT config
+
+!! Colorscheme
 ! color scheme is from terminal.sexy  -> xcolors.net -> euphrasia. terminal color is just black
 
 ! special
