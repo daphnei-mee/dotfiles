@@ -16,16 +16,9 @@
 ;
 ;==========================================================
 
-### NORMAL COLORS
 [colors]
 ;background = ${xrdb:color0:#222}
-
-# normal background
-background = #1E1E1E
-
-# transparent background (hexadecimal)
-#background = #FA2F343F
-
+background = #222
 background-alt = #444
 ;foreground = ${xrdb:color7:#222}
 foreground = #dfdfdf
@@ -34,29 +27,14 @@ primary = #ffb52a
 secondary = #e60053
 alert = #bd2c40
 
-### SOLARIZED COLORS
-#[colors]
-#;background = ${xrdb:color0:#222}
-#background = #002b36
-#background-alt = #073642
-#;foreground = ${xrdb:color7:#222}
-#foreground = #93a1a1
-#foreground-alt = #eee8d5
-#primary = #ffb52a
-#secondary = #e60053
-#alert = #bd2c40
-#red = dc322f
-
-
-[bar/mybar]
+[bar/example]
 ;monitor = ${env:MONITOR:HDMI-1}
 width = 100%
-height = 40
+height = 27
 ;offset-x = 1%
 ;offset-y = 1%
-radius = 0.0
+radius = 6.0
 fixed-center = false
-dpi = 192
 
 background = ${colors.background}
 foreground = ${colors.foreground}
@@ -64,20 +42,22 @@ foreground = ${colors.foreground}
 line-size = 3
 line-color = #f00
 
-border-size = 0
+border-size = 4
 border-color = #00000000
 
 padding-left = 0
 padding-right = 2
 
 module-margin-left = 1
-module-margin-right = 1
+module-margin-right = 2
 
-font-0 = fixed:pixelsize=9;1
+font-0 = fixed:pixelsize=10;1
+font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
+font-2 = siji:pixelsize=10;1
 
-modules-left = bspwm i3 
-modules-center = 
-modules-right = mpd xkeyboard filesystem backlight-acpi pulseaudio memory cpu wlan eth battery temperature weather date powermenu
+modules-left = bspwm i3
+modules-center = mpd
+modules-right = filesystem xbacklight alsa pulseaudio xkeyboard memory cpu wlan eth battery temperature date powermenu
 
 tray-position = right
 tray-padding = 2
@@ -197,18 +177,25 @@ icon-play = 
 icon-pause = 
 icon-next = 
 
-click-left = $TERMINAL -e ncmpcpp
-click-right = mpc toggle
-
-label-song =  %artist% - %title%
-label-song-maxlen = 70
+label-song-maxlen = 25
 label-song-ellipsis = true
 
 [module/xbacklight]
-type = custom/ipc
-hook-0 = light -G | sed 's/\.[0-9]*//'
-format-prefix = " BL:"
-initial = 1
+type = internal/xbacklight
+
+format = <label> <bar>
+label = BL
+
+bar-width = 10
+bar-indicator = |
+bar-indicator-foreground = #fff
+bar-indicator-font = 2
+bar-fill = ─
+bar-fill-font = 2
+bar-fill-foreground = #9f78e1
+bar-empty = ─
+bar-empty-font = 2
+bar-empty-foreground = ${colors.foreground-alt}
 
 [module/backlight-acpi]
 inherit = module/xbacklight
@@ -233,7 +220,7 @@ label = %percentage_used%%
 
 [module/wlan]
 type = internal/network
-interface = wlp3s0
+interface = wlp2s0
 interval = 3.0
 
 format-connected = <ramp-signal> <label-connected>
@@ -253,21 +240,21 @@ ramp-signal-3 = 
 ramp-signal-4 = 
 ramp-signal-foreground = ${colors.foreground-alt}
 
-#[module/eth]
-#type = internal/network
-#interface = eno1
-#interval = 3.0
+[module/eth]
+type = internal/network
+interface = net0
+interval = 3.0
 
-#format-connected-underline = #55aa55
-#format-connected-prefix = " "
-#format-connected-prefix-foreground = ${colors.foreground-alt}
-#label-connected = %local_ip%
+format-connected-underline = #55aa55
+format-connected-prefix = " "
+format-connected-prefix-foreground = ${colors.foreground-alt}
+label-connected = %local_ip%
 
-#format-disconnected =
-#;format-disconnected = <label-disconnected>
-#;format-disconnected-underline = ${self.format-connected-underline}
-#;label-disconnected = %ifname% disconnected
-#;label-disconnected-foreground = ${colors.foreground-alt}
+format-disconnected =
+;format-disconnected = <label-disconnected>
+;format-disconnected-underline = ${self.format-connected-underline}
+;label-disconnected = %ifname% disconnected
+;label-disconnected-foreground = ${colors.foreground-alt}
 
 [module/date]
 type = internal/date
@@ -285,18 +272,11 @@ format-underline = #0a6cf5
 
 label = %date% %time%
 
-[module/weather]
-
-type = custom/script
-exec = weather
-interval = 3600
-format-underline = #50FF00
-
 [module/pulseaudio]
 type = internal/pulseaudio
 
 format-volume = <label-volume> <bar-volume>
-label-volume = VOL: %percentage%%
+label-volume = VOL %percentage%%
 label-volume-foreground = ${root.foreground}
 
 label-muted = 🔇 muted
@@ -350,7 +330,7 @@ bar-volume-empty-foreground = ${colors.foreground-alt}
 [module/battery]
 type = internal/battery
 battery = BAT0
-adapter = ADP1
+adapter = AC
 full-at = 98
 
 format-charging = <animation-charging> <label-charging>

@@ -205,10 +205,21 @@ label-song-maxlen = 70
 label-song-ellipsis = true
 
 [module/xbacklight]
-type = custom/ipc
-hook-0 = light -G | sed 's/\.[0-9]*//'
-format-prefix = " BL:"
-initial = 1
+type = internal/xbacklight
+
+format = <label> <bar>
+label = BL %
+
+bar-width = 10
+bar-indicator = |
+bar-indicator-foreground = #fff
+bar-indicator-font = 2
+bar-fill = ─
+bar-fill-font = 2
+bar-fill-foreground = #9f78e1
+bar-empty = ─
+bar-empty-font = 2
+bar-empty-foreground = ${colors.foreground-alt}
 
 [module/backlight-acpi]
 inherit = module/xbacklight
@@ -296,7 +307,7 @@ format-underline = #50FF00
 type = internal/pulseaudio
 
 format-volume = <label-volume> <bar-volume>
-label-volume = VOL: %percentage%%
+label-volume = VOL %percentage%%
 label-volume-foreground = ${root.foreground}
 
 label-muted = 🔇 muted
