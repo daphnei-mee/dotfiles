@@ -190,7 +190,7 @@ bindsym $mod+r mode "resize"
 
 # Enable Gaps
 for_window [class="^.*"] border pixel 3
-gaps inner 10
+gaps inner 15
 gaps outer 10
 
 # Change gap sizes on the fly
