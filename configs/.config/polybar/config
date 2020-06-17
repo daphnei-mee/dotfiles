@@ -19,8 +19,13 @@
 ### NORMAL COLORS
 [colors]
 ;background = ${xrdb:color0:#222}
-#background = #222
+
+# normal background
 background = #1E1E1E
+
+# transparent background (hexadecimal)
+#background = #FA2F343F
+
 background-alt = #444
 ;foreground = ${xrdb:color7:#222}
 foreground = #dfdfdf

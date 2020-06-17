@@ -49,7 +49,7 @@ Xft.dpi: 192
 *.color15:      #c0c0c0
 
 !! URxvt Appearance
-URxvt.font:     xft: Source Code Pro:style=Thin:size=11,xft:DejaVu Sans:size=11
+URxvt.font:     xft: Source Code Pro:style=Thin:size=11,xft:DejaVu:antialias=false Sans:size=11
 URxvt.letterSpace: 0
 URxvt.lineSpace: 0
 URxvt.geometry: 92x24
