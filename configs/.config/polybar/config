@@ -81,6 +81,7 @@ modules-right = mpd xkeyboard filesystem backlight-acpi pulseaudio memory cpu wl
 
 tray-position = right
 tray-padding = 2
+tray-maxsize = 30
 ;tray-background = #0063ff
 
 ;wm-restack = bspwm
