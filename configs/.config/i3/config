@@ -50,7 +50,7 @@ bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 10
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec --no-startup-id urxvt
+bindsym $mod+Return exec --no-startup-id st
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -117,7 +117,7 @@ bindsym $mod+a focus parent
 #bindsym $mod+d focus child
 
 # Define names for default workspaces for which we configure key bindings later on.
-# We use variables to avoid repeating the names in multiple places.
+# We use variables to avoid repeating the nams in multiple places.
 set $ws1 "1"
 set $ws2 "2"
 set $ws3 "3"
@@ -225,12 +225,12 @@ bindsym $mod+b exec --no-startup-id firefox
 bindsym $mod+shift+b exec --no-startup-id torbrowser-launcher
 
 # Launch File Manager
-bindsym $mod+n exec --no-startup-id urxvt -e ranger
+bindsym $mod+n exec --no-startup-id st -e ranger
 bindsym $mod+shift+n exec --no-startup-id thunar
 
 # Launch Music Player
 exec --no-startup-id mpd
-bindsym $mod+m exec --no-startup-id urxvt -e ncmpcpp
+bindsym $mod+m exec --no-startup-id st -e ncmpcpp
 bindsym $mod+shift+m exec --no-startup-id spotify
 
 # Configure TV command

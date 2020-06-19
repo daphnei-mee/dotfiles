@@ -7,8 +7,7 @@ Xft.dpi: 192
 !! Colorscheme
 ! color scheme is from terminal.sexy  -> xcolors.net -> euphrasia. terminal color is just black
 
-! special
-*.foreground:   #ffffff
+! special *.foreground:   #ffffff
 *.background:   #1d1f21
 *.cursorColor:  #c5c8c6
 
