@@ -28,7 +28,7 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
-exec --no-startup-id nm-applet
+#exec --no-startup-id nm-applet
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
@@ -200,25 +200,25 @@ bindsym $mod+shift+o gaps outer current plus 5
 bindsym $mod+shift+p gaps outer current minus 5
 
 # Run xrandr to fix dpi
-exec_always --no-startup-id xrandr --dpi 192
+#exec_always --no-startup-id xrandr --dpi 192
 
 # Run Unclutter
-exec --no-startup-id unclutter
+#exec --no-startup-id unclutter
 
 # Run wacom tablet setup
-exec --no-startup-id xsetwacom --set "Wacom Intuos S 2 Pen stylus" MapToOutput 14000x14000+0+0
+#exec --no-startup-id xsetwacom --set "Wacom Intuos S 2 Pen stylus" MapToOutput 14000x14000+0+0
 
 # Launch polybar
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 # Launch compositor
-exec_always --no-startup-id picom -CGb 
+#exec_always --no-startup-id picom -CGb 
 
 # Kill compositor
 bindsym $mod+p exec --no-startup-id killall picom
 
 # Set Wallpaper
-exec --no-startup-id setbg
+#exec --no-startup-id setbg
 
 # Launch Web Browser
 bindsym $mod+b exec --no-startup-id firefox
