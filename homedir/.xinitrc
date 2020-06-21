@@ -1,4 +1,7 @@
-export PATH="$PATH:$HOME/.local/bin"
+#!/bin/bash
+
+#export PATH="$PATH:$HOME/.local/bin"
+export PATH="$PATH:$(du "$HOME/.local/bin/" | cut -f2 | paste -sd ':')"
 export EDITOR="nvim"
 export TERMINAL="st"
 export BROWSER="firefox"
@@ -9,10 +12,11 @@ export GDK_SCALE=2
 export GDK_DPI_SCALE=1
 
 xrandr --dpi 192 &
-picom -CGb &
+picom -b &
 mpd &
 nm-applet &
 setbg &
 unclutter &
 xsetwacom --set "Wacom Intuos S 2 Pen stylus" MapToOutput 14000x14000+0+0 &
+~/repos/dwmblocks/dwmblocks &
 exec dwm
