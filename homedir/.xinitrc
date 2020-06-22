@@ -12,10 +12,10 @@ export GDK_SCALE=2
 export GDK_DPI_SCALE=1
 
 xrandr --dpi 192 &
-picom -b &
+setbg &
+picom  --backend xr_glx_hybrid -CGb &
 mpd &
 nm-applet &
-setbg &
 unclutter &
 xsetwacom --set "Wacom Intuos S 2 Pen stylus" MapToOutput 14000x14000+0+0 &
 ~/repos/dwmblocks/dwmblocks &
