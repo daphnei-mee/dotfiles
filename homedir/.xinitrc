@@ -1,6 +1,5 @@
 #!/bin/bash
 
-#export PATH="$PATH:$HOME/.local/bin"
 export PATH="$PATH:$(du "$HOME/.local/bin/" | cut -f2 | paste -sd ':')"
 export EDITOR="nvim"
 export TERMINAL="st"
