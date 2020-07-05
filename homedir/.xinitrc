@@ -15,7 +15,7 @@ export GDK_DPI_SCALE=1
 # firefox stuff
 export MOZ_USE_XINPUT2=1
 export MOZ_ENABLE_WAYLAND=1
-export MOZ_X11_EGL=1
+#export MOZ_X11_EGL=1
 
 xrandr --dpi 192 &
 setbg &
