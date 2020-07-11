@@ -8,3 +8,47 @@ Jul 11 16:11 : client: [0] closed
 Jul 11 16:12 : client: [1] opened from 127.0.0.1:58770
 Jul 11 16:12 : exception: Failed to open /home/jacob/.config/mpd/playlists: No such file or directory
 Jul 11 16:12 : client: [1] closed
+Jul 11 16:13 : client: [2] opened from 127.0.0.1:58836
+Jul 11 16:13 : exception: Failed to open /home/jacob/.config/mpd/playlists: No such file or directory
+Jul 11 16:13 : client: [2] closed
+Jul 11 16:14 : client: [3] opened from 127.0.0.1:58884
+Jul 11 16:14 : exception: Failed to open /home/jacob/.config/mpd/playlists: No such file or directory
+Jul 11 16:14 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 11 16:14 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 11 16:14 : client: [3] closed
+Jul 11 16:14 : client: [4] opened from 127.0.0.1:58924
+Jul 11 16:14 : exception: Failed to open /home/jacob/.config/mpd/playlists: No such file or directory
+Jul 11 16:15 : client: [4] closed
+Jul 11 16:15 : client: [5] opened from 127.0.0.1:58928
+Jul 11 16:15 : exception: Failed to open /home/jacob/.config/mpd/playlists: No such file or directory
+Jul 11 16:15 : exception: Failed to open /home/jacob/.config/mpd/playlists: No such file or directory
+Jul 11 16:16 : exception: Failed to open /home/jacob/.config/mpd/playlists: No such file or directory
+Jul 11 16:16 : exception: Failed to open /home/jacob/.config/mpd/playlists: No such file or directory
+Jul 11 16:18 : exception: Failed to open /home/jacob/.config/mpd/playlists: No such file or directory
+Jul 11 16:18 : exception: Failed to open /home/jacob/.config/mpd/playlists: No such file or directory
+Jul 11 16:18 : exception: Failed to open /home/jacob/.config/mpd/playlists: No such file or directory
+Jul 11 16:18 : exception: Failed to open /home/jacob/.config/mpd/playlists: No such file or directory
+Jul 11 16:18 : exception: Failed to open /home/jacob/.config/mpd/playlists: No such file or directory
+Jul 11 16:18 : exception: Failed to open /home/jacob/.config/mpd/playlists: No such file or directory
+Jul 11 16:18 : exception: Failed to open /home/jacob/.config/mpd/playlists: No such file or directory
+Jul 11 16:18 : exception: Failed to open /home/jacob/.config/mpd/playlists: No such file or directory
+Jul 11 16:18 : exception: Failed to open /home/jacob/.config/mpd/playlists: No such file or directory
+Jul 11 16:18 : exception: Failed to open /home/jacob/.config/mpd/playlists: No such file or directory
+Jul 11 16:19 : exception: Failed to open /home/jacob/.config/mpd/playlists: No such file or directory
+Jul 11 16:20 : client: [6] opened from 127.0.0.1:58954
+Jul 11 16:20 : exception: Failed to open /home/jacob/.config/mpd/playlists: No such file or directory
+Jul 11 16:20 : client: [5] closed
+Jul 11 16:20 : client: [7] opened from 127.0.0.1:58958
+Jul 11 16:20 : exception: Failed to open /home/jacob/.config/mpd/playlists: No such file or directory
+Jul 11 16:20 : client: [7] closed
+Jul 11 16:20 : client: [8] opened from 127.0.0.1:59016
+Jul 11 16:20 : exception: Failed to open /home/jacob/.config/mpd/playlists: No such file or directory
+Jul 11 16:20 : client: [8] closed
+Jul 11 16:26 : client: [9] opened from 127.0.0.1:59146
+Jul 11 16:26 : exception: Failed to open /home/jacob/.config/mpd/playlists: No such file or directory
+Jul 11 16:26 : client: [9] closed
+Jul 11 16:34 : client: [10] opened from 127.0.0.1:59606
+Jul 11 16:34 : exception: Failed to open /home/jacob/.config/mpd/playlists: No such file or directory
+Jul 11 16:34 : exception: Failed to open /home/jacob/.config/mpd/playlists: No such file or directory
+Jul 11 16:34 : client: [10] closed
+Jul 11 16:34 : player: played "Boris - Flood/01 Flood 1.mp3"
