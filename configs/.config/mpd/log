@@ -1,0 +1,10 @@
+Jul 11 16:06 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 11 16:06 : avahi: Service 'Music Player @ box' successfully established.
+Jul 11 16:06 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 11 16:06 : avahi: Service 'Music Player @ box' successfully established.
+Jul 11 16:11 : client: [0] opened from 127.0.0.1:58760
+Jul 11 16:11 : exception: Failed to open /home/jacob/.config/mpd/playlists: No such file or directory
+Jul 11 16:11 : client: [0] closed
+Jul 11 16:12 : client: [1] opened from 127.0.0.1:58770
+Jul 11 16:12 : exception: Failed to open /home/jacob/.config/mpd/playlists: No such file or directory
+Jul 11 16:12 : client: [1] closed
