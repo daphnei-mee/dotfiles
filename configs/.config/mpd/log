@@ -83,3 +83,12 @@ Jul 11 19:42 : update: updating Legend Of Galactic Heroes CD-BOX/Galactic Empire
 Jul 11 20:31 : player: played "Yuki Kajiura - Kara no Kyoukai Music Collection/08 - Magician.flac"
 Jul 11 20:31 : exception: Failed to open /home/jacob/.config/mpd/playlists: No such file or directory
 Jul 12 03:30 : client: [6] closed
+Jul 26 13:41 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 26 13:41 : exception: inotify_add_watch() has failed: No such file or directory
+Jul 27 02:14 : client: [0] opened from 127.0.0.1:49432
+Jul 27 02:14 : exception: Failed to open /home/daphnei/.config/mpd/playlists: No such file or directory
+Jul 27 02:14 : client: [0] closed
+Jul 27 02:20 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 27 12:25 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 28 14:51 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 29 15:02 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
