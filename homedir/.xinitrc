@@ -9,7 +9,7 @@ export PATH="$PATH:$(du "$HOME/.local/bin/" | cut -f2 | paste -sd ':')"
 #default applications
 export EDITOR="nvim"
 export TERMINAL="st"
-export BROWSER="firefox-nightly"
+export BROWSER="chromium"
 export READER="zathura"
 export PAGER="less"
 
@@ -28,7 +28,7 @@ setbg &
 picom -CGb &
 mpd &
 dunst &
-imwheel &
+imwheel -b 45
 nm-applet &
 unclutter &
 xsetwacom --set "Wacom Intuos S 2 Pen stylus" MapToOutput 14000x14000+0+0 &
