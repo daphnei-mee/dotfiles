@@ -11587,3 +11587,74 @@ Aug 03 15:38 : exception: RTIOThread could not get realtime scheduling, continui
 Aug 03 21:23 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
 Aug 04 01:18 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
 Aug 04 14:43 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 04 20:19 : update: added /ng_anthem.mp3
+Aug 04 20:19 : update: added /Tchaikovsky - Overture 1812, Op.49, TH 49-3i4f3NtLp5E.m4a
+Aug 04 20:19 : client: [0] opened from 127.0.0.1:53418
+Aug 04 20:19 : exception: Failed to open /home/daphnei/.config/mpd/playlists: No such file or directory
+Aug 04 20:19 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 04 20:19 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 04 20:20 : client: [0] closed
+Aug 04 20:20 : client: [1] opened from 127.0.0.1:53432
+Aug 04 20:20 : exception: Failed to open /home/daphnei/.config/mpd/playlists: No such file or directory
+Aug 04 20:20 : client: [1] closed
+Aug 05 04:17 : player: played "ng_anthem.mp3"
+Aug 05 15:28 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 05 15:31 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 05 17:13 : client: [0] opened from 127.0.0.1:56594
+Aug 05 17:13 : exception: Failed to open /home/daphnei/.config/mpd/playlists: No such file or directory
+Aug 05 17:13 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 05 17:13 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 05 17:30 : player: played "Tchaikovsky - Overture 1812, Op.49, TH 49-3i4f3NtLp5E.m4a"
+Aug 05 17:30 : exception: Failed to open /home/daphnei/.config/mpd/playlists: No such file or directory
+Aug 05 17:33 : player: played "Shiro Sagisu - Kare Kano OST 1/23 - Atsuko Enomoto & Chihiro Suzuki - Yume no Nake e (Full Size).flac"
+Aug 05 17:38 : exception: Failed to open /home/daphnei/.config/mpd/playlists: No such file or directory
+Aug 05 17:40 : exception: Failed to open /home/daphnei/.config/mpd/playlists: No such file or directory
+Aug 05 17:42 : player: played "Nagakawa Kotaro - Code Geass Resurrection OST 1/(Disc 2) 06 - Trickster.mp3"
+Aug 05 17:42 : exception: Failed to open /home/daphnei/.config/mpd/playlists: No such file or directory
+Aug 05 17:43 : exception: Failed to open /home/daphnei/.config/mpd/playlists: No such file or directory
+Aug 05 17:43 : exception: Failed to open /home/daphnei/.config/mpd/playlists: No such file or directory
+Aug 05 17:46 : player: played "Joe Hisaishi - The Wind Rises OST/01.Journey (Dreamy Flight).mp3"
+Aug 05 17:46 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Aug 05 17:46 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Aug 05 17:48 : player: played "Toshio Masuda - Mushishi OST 1/01. Mushishi No Theme (The Mushishi Theme).m4a"
+Aug 05 18:06 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Aug 05 18:06 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Aug 05 18:06 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Aug 05 18:06 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Aug 05 18:06 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Aug 05 18:06 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Aug 05 18:06 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Aug 05 18:06 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Aug 05 18:09 : player: played "Toshio Masuda - Mushishi OST 1/09. Ame Ga Kuru Niji Ga Tatsu (Here Comes The Rain, Here Comes The Rainbow).m4a"
+Aug 05 19:36 : client: [0] closed
+Aug 06 02:54 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 06 03:01 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 06 14:24 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 06 14:49 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 06 18:48 : client: [0] opened from 127.0.0.1:47352
+Aug 06 18:48 : exception: Failed to open /home/daphnei/.config/mpd/playlists: No such file or directory
+Aug 06 18:50 : client: [0] closed
+Aug 07 15:09 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 07 15:14 : client: [0] opened from 127.0.0.1:54112
+Aug 07 15:14 : exception: Failed to open /home/daphnei/.config/mpd/playlists: No such file or directory
+Aug 07 15:15 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 07 15:15 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 07 15:18 : player: played "ng_anthem.mp3"
+Aug 07 15:18 : exception: Failed to open /home/daphnei/.config/mpd/playlists: No such file or directory
+Aug 07 15:21 : player: played "Yuki Kajiura - Madoka Magica OST/OST 1/01 - Sis Puella Magica.flac"
+Aug 07 16:55 : client: [0] closed
+Aug 07 21:10 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 08 14:40 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 08 21:10 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 08 22:20 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 08 23:45 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 09 00:01 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 09 00:13 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 09 00:27 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 09 15:10 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 10 16:36 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 10 17:36 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 10 17:40 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 10 19:29 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 10 19:32 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 11 15:01 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
