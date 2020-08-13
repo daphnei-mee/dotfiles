@@ -11664,3 +11664,5 @@ Aug 11 22:58 : exception: Failed to open /home/daphnei/.config/mpd/playlists: No
 Aug 11 22:58 : client: [0] closed
 Aug 11 23:03 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
 Aug 12 14:03 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 13 00:44 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Aug 13 02:55 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
