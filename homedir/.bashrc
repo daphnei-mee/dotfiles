@@ -1,6 +1,8 @@
 #
 # ~/.bashrc
 #
+# Set vi mode
+set -o vi
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
