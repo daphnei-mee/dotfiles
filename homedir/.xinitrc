@@ -29,6 +29,7 @@ picom -CGb &
 mpd &
 dunst &
 imwheel -b 45
+xss-lock -- slock
 nm-applet &
 unclutter &
 xsetwacom --set "Wacom Intuos S 2 Pen stylus" MapToOutput 14000x14000+0+0 &
