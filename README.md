@@ -14,7 +14,7 @@ mkdir ~/.local/ (if it doesn't exist: IMPORTANT)
 
 cd ~
 
-git clone https://github.com/jacob-mee/dotfiles
+git clone https://github.com/daphnei-mee/dotfiles
 
 cd dotfiles
 
