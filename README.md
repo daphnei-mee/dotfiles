@@ -10,7 +10,11 @@ These dotfiles are usable via gnu stow – https://www.gnu.org/software/stow/
 
 Usage:
 
+mkdir ~/.config/ (if it doesn't exist: IMPORTANT) 
+
 mkdir ~/.local/ (if it doesn't exist: IMPORTANT) 
+
+mkdir ~/.local/share/ (if it doesn't exist: IMPORTANT) 
 
 cd ~
 
