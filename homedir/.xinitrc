@@ -9,7 +9,7 @@ export PATH="$PATH:$(du "$HOME/.local/bin/" | cut -f2 | paste -sd ':')"
 #default applications
 export EDITOR="nvim"
 export TERMINAL="st"
-export BROWSER="firefox-nightly"
+export BROWSER="chromium"
 export READER="zathura"
 export PAGER="less"
 
