@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =5
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/home/daphnei/dotfiles/configs/.config/mpv'
 let g:netrw_dirhist_5='/home/daphnei/.config/picom'
 let g:netrw_dirhist_4='/home/daphnei/.gnupg'
 let g:netrw_dirhist_3='supervise'
