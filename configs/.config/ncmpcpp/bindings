@@ -195,8 +195,8 @@ def_key "["
 #def_key "y"
 #  start_searching
 #
-#def_key "y"
-#  toggle_single
+def_key "y"
+  toggle_single
 #
 #def_key "R"
 #  toggle_consume
