@@ -177,11 +177,11 @@
 #def_key "backspace"
 #  replay_song
 #
-#def_key "f"
-#  seek_forward
+def_key "]"
+  seek_forward
 #
-#def_key "b"
-#  seek_backward
+def_key "["
+  seek_backward
 #
 #def_key "r"
 #  toggle_repeat
@@ -322,7 +322,7 @@
 #  crop_main_playlist
 #
 #def_key "m"
-#  move_sor_order_up
+#  move_sort_order_up
 #
 #def_key "m"
 #  move_selected_items_up
