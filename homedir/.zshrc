@@ -29,9 +29,17 @@ _comp_options+=(globdots)		# Include hidden files.
 bindkey -v
 export KEYTIMEOUT=1
 
-# Home, End, and Delete keys
-bindkey  "^[[1~"   beginning-of-line
-bindkey  "^[[4~"   end-of-line
+#bindkey "^[[H" beginning-of-line
+#bindkey "^[[F" end-of-line
+
+
+bindkey '^[[H' beginning-of-line     # Home
+bindkey '^[[F' end-of-line     # End
+bindkey '^[[H' beginning-of-line     # Home
+bindkey '^[[4~' end-of-line     # End
+bindkey '^[[3~' delete-char     # Delete
+bindkey '^?' backward-delete-char     # Backspace
+
 
 # Use vim keys in tab complete menu:
 bindkey -M menuselect 'h' vi-backward-char
