@@ -1,4 +1,5 @@
-# Luke's config for the Zoomer Shell
+# Daphnei's config for the Zoomer Shell
+# Based on Luke Smith's config
 
 # Enable colors and change prompt:
 autoload -U colors && colors	# Load colors
@@ -27,6 +28,10 @@ _comp_options+=(globdots)		# Include hidden files.
 # vi mode
 bindkey -v
 export KEYTIMEOUT=1
+
+# Home, End, and Delete keys
+bindkey  "^[[1~"   beginning-of-line
+bindkey  "^[[4~"   end-of-line
 
 # Use vim keys in tab complete menu:
 bindkey -M menuselect 'h' vi-backward-char
