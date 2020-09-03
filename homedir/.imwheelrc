@@ -10,3 +10,5 @@
     None, Down, Button5, 3 
 "^Navigator$"
     @Exclude
+"^st-256color$"
+    @Exclude
