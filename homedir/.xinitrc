@@ -34,4 +34,5 @@ nm-applet &
 unclutter &
 xsetwacom --set "Wacom Intuos S 2 Pen stylus" MapToOutput 14000x14000+0+0 &
 slstatus &
+lxsession &
 exec dwm
