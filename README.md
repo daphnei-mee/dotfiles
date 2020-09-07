@@ -13,6 +13,8 @@ Before using, verify that the following folders exist (VERY IMPORTANT). If they 
 ~/.local/share
 ~/.config
 
+------------------------------------------------------------------------------------------------------------------------------------------------
+
 Usage:
 
 cd ~
