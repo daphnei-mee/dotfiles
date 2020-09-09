@@ -25,7 +25,7 @@ export MOZ_USE_XINPUT2=1
 
 xrandr --dpi 192 &
 setbg &
-picom -CGb &
+picom -b &
 mpd &
 dunst &
 imwheel -b 45 &
