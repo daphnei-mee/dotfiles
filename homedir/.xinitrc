@@ -23,6 +23,9 @@ export MOZ_ENABLE_WAYLAND=1
 export MOZ_USE_XINPUT2=1
 #export MOZ_X11_EGL=1
 
+# Uniform look for QT and GTK applications
+export DESKTOP_SESSION=gnome
+
 xrandr --dpi 192 &
 setbg &
 picom -b &
@@ -30,7 +33,7 @@ mpd &
 dunst &
 imwheel -b 45 &
 xss-lock -- slock &
-nm-applet &
+cmst -m &
 unclutter &
 xsetwacom --set "Wacom Intuos S 2 Pen stylus" MapToOutput 14000x14000+0+0 &
 slstatus &
