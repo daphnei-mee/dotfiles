@@ -23,9 +23,6 @@ export MOZ_ENABLE_WAYLAND=1
 export MOZ_USE_XINPUT2=1
 #export MOZ_X11_EGL=1
 
-# Uniform look for QT and GTK applications
-export DESKTOP_SESSION=gnome
-
 xrandr --dpi 192 &
 setbg &
 picom -b &
